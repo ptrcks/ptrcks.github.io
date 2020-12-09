@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto sans", sans-serif;
+    text-align: center;
+}
+
+header{
+    color: rgb(40, 39  , 48);
+    background-color: white;
+    padding: 8px;
+    
+
+}
+
+body{
+    color: white;
+    background-color: rgb(40, 39  , 48);
+
+}
+
+.score-board{
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    margin: 30px auto;
+    width: 200px;
+    border: solid 5px white;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.nametags{
+    font-size: 12px;
+    background-color: red;
+    width: fit-content;
+    padding: 1px 3px;
+    border-radius: 5px;
+}
+
+#user-tag{
+    position: absolute;
+    top: 27px;
+    left: -20px;
+}
+
+#Comp-tag{
+    position: absolute;
+    top: 27px;
+    right: -24px;
+}
+
+.Annoncement > p{
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.Choices{
+    margin-top: 30px;
+
+}
+
+.choice{
+    border: solid 5px white;
+    padding: 25px;
+    border-radius: 50%;
+    display: inline-block;
+    margin:10px;
+}
+
+.choice:hover{
+    background-color: white;
+}
+
+.foot-text{
+    margin-top: 20px;
+    font-size: 20px;
+}
