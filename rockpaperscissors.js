@@ -53,6 +53,7 @@ function Compchoice(){
     setTimeout(untoggle, 1000)
     return choice
 }
+ 
 
 
 
