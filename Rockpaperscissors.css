@@ -73,6 +73,16 @@ body{
     margin:10px;
 }
 
+#r.active{
+    border-color: red;
+}
+#p.active{
+    border-color: red;
+}
+#s.active{
+    border-color: red;
+}
+
 .choice:hover{
     background-color: white;
 }
